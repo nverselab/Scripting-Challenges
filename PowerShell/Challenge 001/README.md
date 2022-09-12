@@ -20,7 +20,7 @@ Download the ExampleFiles.zip from the Challenge #001 repository and create a sc
 1. Export the csv containing your table from the Advanced Task to the Temporary Files directory
 2. Copy the contents of the ExampleFiles directory (do not move them) to a new location
 3. Compare the values from the exported csv file to the values obtained from the new, copied directory
-    3. If they all match, exit successfully.
-    4. If they don't all match, exit unsuccessfully
+    - If they all match, exit successfully.
+    - If they don't all match, exit unsuccessfully
 
 

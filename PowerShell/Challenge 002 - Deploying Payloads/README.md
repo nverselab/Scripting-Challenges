@@ -17,6 +17,6 @@ Download the ExamplePayload.zip and create a script to do the following:
 
 ## Expert Task
 
-1. Using only PowerShell and , create a Scheduled Task to perform both the Core and Advanced Tasks daily as System.
+1. Using only PowerShell, create a Scheduled Task to perform both the Core and Advanced Tasks daily as System.
 
 

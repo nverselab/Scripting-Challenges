@@ -1,4 +1,4 @@
-# PowerShell Challenge #002 - Deploying Desktop Shortcuts
+# PowerShell Challenge #002 - Deploying Payloads
 
 ## Core Task
 

@@ -1,6 +1,6 @@
 # Welcome to PowerShell Challenges!
 
-This section will include scenarios to test and expand your PowerShell skills.  Each Challenge will include (at leaset) three sections to complete with increasing difficulty.  Feel free to complete as many of these sections as you like.
+This section will include scenarios to test and expand your PowerShell skills.  Each Challenge will include (at least) three sections to complete with increasing difficulty.  Feel free to complete as many of these sections as you like.
 
 ## Core Tasks
 

@@ -1,23 +1,23 @@
-# PowerShell Challenge #002 - Deploying Payloads
+# PowerShell Challenge #003 - Loopy Conditions
 
 ## Core Task
 
-Download the ExamplePayload.zip and create a script to do the following:
-
-1. Test if each file already exists in the Public Desktop folder
-    - If they do not exist, copy the one from the ExamplePayload directory there (do not move them)
-    - If they do exist, replace them with the new version
-2. Validate all the target files have infact been updated from the payload.
+Create an array of all the folder and files names in the current user's home directory and loop through each one until you find one with the word "Microsoft" or "Edge" in the name then: 
+- Display the number objects checked before you found one
+- Display the full path of the file or folder found
+- Display the Date Modified of the file or folder found
 
 ## Advanced Task
 
-1. Check to see if each user on the machine has these same files on their desktop
-    - If they do, remove them so that the only place they exist is in the Public Desktop folder
-2. Create a log of each action somewhere on the system for later review.
+Create an array of all the folder and file names in the current user's home directory and loop through each one then:
+- Display the number objects containing the .lnk, .url, or .json file extension
+- Ask the user to specify a directory path to save the export, but only let them continue if they provide a valid path in their home directory
+- Export a list of filepaths and Date Modified for each of the files found to the directory provided by the user
 
 ## Expert Task
 
-1. Using only PowerShell and the files provided, create a Scheduled Task to perform both the Core and Advanced Tasks daily as System to ensure a copy is always in Public Desktop and duplicates are not on individual user Desktops.
-    - **Clarification:** "Using only PowerShell" in this challenge means you must use PowerShell to install the script for the Scheduled Task to run. A seperate script cannot be included in your payload.
+Complete the same Challenge as the Advanced Task, but also:
+- Tell the user they only have 5 opportunities to provide a valid path in their home directory and display the number of tries remaining after each attempt
+- After their 5th invalid attempt, export the list of filepaths and Date Modified for each of the files found to their Desktop instead
 
 
